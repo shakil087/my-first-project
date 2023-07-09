@@ -73,7 +73,10 @@ margin-bottom: 0px;
     max-width: 500px;
 }
 /* main styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about styles */
 .about{
     padding: 130px;
@@ -91,4 +94,11 @@ margin-bottom: 0px;
     color: #757575;
     text-align: center;
     font-size: 18px;   
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
